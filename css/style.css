@@ -82,4 +82,32 @@ input {
   font-size: 16px;
 }
 
+/* Navbar */
+.navbar {
+  background-color: rgb(20, 72, 91);
+  height: 49.6px;
+}
 
+.navbar .container {
+  height: 100%;
+}
+.navbox {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .header-nav-list {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 9.6px;
+  gap: 20px;
+}
+
+.header-nav-link {
+  font-size: 19px;
+  color: white;
+  text-decoration: none;
+}
