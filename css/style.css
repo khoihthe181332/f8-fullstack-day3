@@ -180,7 +180,7 @@ time {
   padding: 15px;
   background-color: #14485b;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
   color: #fff;
 }
 
@@ -289,12 +289,12 @@ time::after {
   background-color: #3371b7;
 }
 .sidebar-icon i {
-  display: block;
+  /* display: block; */
   width: 100%;
   height: 100%;
   color: #fff;
   text-align: center;
-  line-height: 40px;
+  line-height: 2;
   font-size: 20px;
 }
 
@@ -337,6 +337,8 @@ time::after {
 .sidebar-box .post-list li {
   margin: 10px 0;
   /* list-style: square; */
+  position: relative;
+  padding-left: 16px;
 }
 
 .sidebar-box .post-list ul li:before {
@@ -344,7 +346,21 @@ time::after {
   color: #14485b;
   font-size: 12px;
   margin-right: 10px;
+  position: absolute;
+  top: 0.3em;
+  left: 0;
+  width: 0;
+  height: 0;
 }
+
+/* content: '';
+    position: absolute;
+    top: .4375em;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: .3125em solid transparent;
+    border-left-color: #14485b; */
 
 .sidebar-box .sidebar-title {
   background-color: #14485b;
